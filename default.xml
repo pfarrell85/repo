@@ -11,4 +11,7 @@
   <remote name="jansson" fetch="https://github.com/akheron" />
   <project name="jansson" remote="jansson" path="jansson"/>
 
+  <remote name="libwebsockets" fetch="https://github.com/warmcat" />
+  <project name="libwebsockets" remote="libwebsockets" path="libwebsockets"/>
+
 </manifest>
