@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-  <remote  name="socket.io"
-           fetch="https://github.com/socketio" />
-
-  <default revision="refs/heads/master"
-           remote="socket.io" />
-
+  <remote name="socket.io" fetch="https://github.com/socketio" />
+  <default revision="refs/heads/master" remote="socket.io" />
   <project name="socket.io" remote="socket.io" path="socket.io"/>
+
+  <remote name="openssl" fetch="https://github.com/openssl" />
+  <project name="openssl" remote="openssl" path="openssl"/>
+
+  <remote name="jansson" fetch="https://github.com/akheron" />
+  <project name="jansson" remote="jansson" path="jansson"/>
 
 </manifest>
