@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote  name="socket.io"
+           fetch="https://github.com/socketio" />
+
+  <default revision="refs/heads/master"
+           remote="socket.io" />
+
+  <project name="socket.io" remote="socket.io" path="socket.io"/>
+
+</manifest>
