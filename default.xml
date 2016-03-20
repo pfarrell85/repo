@@ -14,4 +14,8 @@
   <remote name="libwebsockets" fetch="https://github.com/warmcat" />
   <project name="libwebsockets" remote="libwebsockets" path="libwebsockets"/>
 
+  <remote name="ffmpeg" fetch="git://source.ffmpeg.org" />
+  <project name="ffmpeg" remote="ffmpeg" path="ffmpeg"/>
+
+
 </manifest>
